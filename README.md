@@ -28,6 +28,7 @@ Adicionar no seu pom.xml:
 ## Uso básico
 
 ```java
+// Em ConexaoDatasusImpl o parametro false é setado para ambiente de homologação, true para ambiente de produção.
 ConexaoDatasusImpl cd = new ConexaoDatasusImpl ("MeuUsuario", "MinhaSenha", true);
 CnsDatasus cns = new CnsDatasus(cd);
 DadosDemograficosImpl dadosDemograficosResponse = cns.buscaPorCPF("71662652054");
