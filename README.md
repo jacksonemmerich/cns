@@ -18,9 +18,9 @@ Adicionar no seu pom.xml:
 
 ```xml
 <dependency>
-    <groupId>br.com.jhemarcos</groupId>
+    <groupId>br.gov.ro.portovelho</groupId>
     <artifactId>cns</artifactId>
-    <version>1.0.0</version>
+    <version>1.0.1</version>
 </dependency>
 
 ```
